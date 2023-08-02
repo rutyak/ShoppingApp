@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="container2">
+        <nav>
+            <p>MeShop.</p>
+            <ul class="ul-items">
+                <li class="items" ><a href="./shop.html">Home</a></li>
+                <li class="items" ><a href="./login.html">Login</a></li>
+                <li class="items"><a href="./signup.html">Signup</a></li>
+                <li class="items" id="myCart" ><a href="./Shoppingcart.html">MyCart</a></li>
+                <li class="items"><a href="./">Profile</a></li>
+            </ul>
+        </nav>
+     
+        <!-- -----------------------------------------sidebar------------------------- -->
+        <div class="inner-container">
+            <div class="sidebar">
+                <hr class="top-hr">
+                <div>
+                    <p>Colors</p>
+                    <input type="checkbox" id="check">  Red <br>
+                    <input type="checkbox" id="check">  Blue <br>
+                    <input type="checkbox" id="check">  Green <br>
+                    <input type="checkbox" id="check">  Black <br>
+                    <input type="checkbox" id="check">  White 
+                </div>
+                <hr class="others">
+                <div>
+                    <p>Sizes</p>
+                    <input type="checkbox" id="check">  S <br>
+                    <input type="checkbox" id="check">  M <br>
+                    <input type="checkbox" id="check">  L <br>
+                    <input type="checkbox" id="check">  XL 
+                </div>
+                <hr class="others">
+                <div>
+                    <p>Rating</p>
+                    <input type="range" id="range" min="0" max="5">
+                </div>
+                <hr class="others">
+                <div>
+                    <p>Price Range</p>
+                    <input type="checkbox" id="check">  $0 to $25<br>
+                    <input type="checkbox" id="check">  $25 to $50<br>
+                    <input type="checkbox" id="check">  $50 to $100<br>
+                    <input type="checkbox" id="check">  $100 onwards
+                </div>
+                
+                <button type="button" id="apply-filterbtn">Apply Filter</button>
+            </div>
+            
+    
+            <!-- -----------------------------------------Main --------------------------------------------------------------------- -->
+    
+            <div class="main-container-shop">
+                <div class="serach" id="search">
+                   <img src="./ant-design_search-outlined.png" alt=""><input type="search" placeholder="Search">
+                </div>
+
+                <div class="tags">
+                    <button class="special-tag" type="All-btn">All</button>
+                    <button class="other-tag" type="mens-btn">Mens</button>
+                    <button class="other-tag" type="womens-btn">Women</button>
+                    <button class="other-tag" type="jewellery-btn">Jewellery</button>
+                    <button class="other-tag" type="electronics-btn">Electronics</button>
+                </div>
+                 
+                <p class="mencard-title">Men's Clothing</p>
+                <div class="shopping-cards" id="mens-cards"> 
+
+                </div>
+
+                <p class="title">Women's Clothing</p>
+                <div class="shopping-cards" id="womens-cards"> 
+                   
+                </div>
+                
+                <p class="title">Jewellery</p>
+                <div class="shopping-cards" id="jewellerys-cards"> 
+                   
+                </div>
+
+                <p class="title">Electronics</p>
+                <div class="shopping-cards" id="electronics-cards"> 
+                   
+                </div>
+            
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+    <script src="./shop.js"></script>
+</body>
+</html>

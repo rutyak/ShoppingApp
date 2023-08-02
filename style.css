@@ -1,0 +1,330 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Lato:wght@300&family=Merriweather:wght@300&family=Nunito+Sans:opsz,wght@6..12,300&family=Nunito:wght@200&family=PT+Sans:ital@1&family=Poppins&family=Ubuntu&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Merriweather", serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "PT Sans", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 3.5rem;
+    background-color: black;
+    color: white;
+    /* margin-top: 0.3rem; */
+    padding-top: 1rem;
+    padding-right: 1.6rem;
+    padding-left: 1.5rem;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+}
+
+.ul-items {
+  display: flex;
+  list-style: none;
+}
+
+nav p{
+    margin-left: 0.5rem;
+}
+nav .items {
+  margin-right: 1.5rem;
+}
+
+/* -------------main-container----------- */
+
+.main-container div{
+    margin-left: 2rem;
+    position: relative;
+    top: 3.5rem;
+}
+
+.main-container h1{
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    font-size: 4rem;
+    
+}
+
+.main-container p{
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.main-container img{
+    width: 69%;
+    margin-top: -2.4rem;
+    height: 32em;
+    margin-left: 25rem;
+}
+
+#login{
+    padding: 0.4rem;
+    width: 7.5rem;
+    background-color: black;
+    color: white;
+    margin-right: 1rem;
+}
+
+#signup{
+    padding: 0.4rem;
+    width: 7.5rem;
+    background-color:  white;
+    color: black;
+}
+
+
+
+/* -------------------------------------------signup page--------------------------------------------------------------------------------- */
+
+form input{
+    width: 93%;
+    height: 2.5rem;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+    padding-left: 0.8rem;
+}
+
+.from-info p{
+    margin-left: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.22rem;
+}
+
+#btnOfSignup{
+    margin-left: 3rem;
+    width: 6.1rem;
+    height: 2rem;
+    background-color: black;
+    color: white;
+}
+ 
+.from-info .orgLogin{
+    margin-left: 3rem;
+    width: 6.1rem;
+    height: 2rem;
+    background-color: black;
+    color: white;
+}
+/*--------------------------------------------------shop.html------------------------------------- */
+/* 
+-------------------------sidebar-------------------------- */
+
+.ul-items a{
+    text-decoration: none;
+    color: white;
+}
+.inner-container{
+    display: flex;  
+}
+
+.sidebar{
+    width: 13%;
+    height: 92vh;
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 3.5rem;
+    z-index: 1000;
+}
+
+.sidebar p{
+    margin-left: 1rem;
+    font-weight: 200;
+    margin-bottom: 0.7rem;
+}
+
+.sidebar input{
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.sidebar .top-hr{
+    margin-bottom: 1rem;
+}
+
+.others{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#apply-filterbtn{
+    color: white;
+    background-color: black;
+    border: 0.1rem solid gray;
+    width: 7rem;
+    height: 3em;
+    margin-top: 2rem;
+    margin-left: 1rem;
+} 
+
+/* -------------------main-content------------------ */
+
+.main-container-shop{
+    position: relative;
+    top: 3.5rem;
+}
+
+.serach input{
+    height: 2.5em;
+    /* width: 155%; */
+    width: 78.9rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    padding-left: 2.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+  
+}
+
+.serach img{
+    position: absolute;
+    margin-top: 1.6rem;
+    margin-left: 0.6rem;
+    height: 1.5em;
+    padding-left: 0.2rem;
+}
+
+.mencard-title{
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+/* ---------------------------shopping-cards--------------------------------------------------------------------------------- */
+/* 
+-----------------------------------mens-cards----------------------------------- */
+.main-container-shop{
+    margin-left: 15rem;
+}
+.shopping-cards{
+    width: 16.1rem;
+    /* border: 1px solid gray; */
+    /* margin-left: 1.7rem; */
+    display: flex;
+    width: 78.5rem;
+    overflow-x: auto;
+    white-space: nowrap;
+
+}
+
+.shopping-cards .cards{
+    border: 1px solid gray;
+    margin-right: 2rem;
+}
+
+.shopping-cards img{
+    width: 18rem;
+    height: 19em;
+}
+.shopping-cards .middle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.shopping-cards p{
+    margin-top: 0.5rem;
+    margin-left: 0.8rem;
+    margin-bottom: 0.6rem;
+}
+
+.title{
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    margin-top: 1.4rem;
+}
+
+.middle .special-p{
+    margin-right: 0.8rem;
+}
+
+#addTocard-btn{
+    width: 19rem;
+    height: 2.5em;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+}
+
+.tags .special-tag{
+    width: 14.26rem;
+    height: 2.3em;
+    background-color: black;
+    color: white;
+    /* margin-left: 1.7rem; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.tags .other-tag{
+    width: 14.26rem;
+    height: 2.3em;
+    background-color: white;
+    color: black;
+    margin-left: 1.6rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+
+/* -------------------------------------------------------Shoppingcard.html----------------------------------------------- */
+
+.cart-container{
+    position: relative;
+    top: 3.5rem;
+}
+
+.cart-container h1{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+.carts-checkout{
+    display: flex;
+}
+
+.carts-checkout .checkout-list{
+    width: 17%;
+    height: 20em;
+    background-color: black;
+    color: white;
+    margin-left: 76rem;
+}
+
+.checkout-list .total{
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout-list .top-title{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.checkout-list button{
+    margin-top: 1rem;
+    height: 2.5rem;
+    width: 11rem;
+    text-align: center;
+    margin-left: 2.7rem;
+}
+
+.checkout-list hr{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
